@@ -1,54 +1,37 @@
-<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><table>
-  <thead>
-  <tr>
-  <th>lab</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-  <td><div><table>
-  <thead>
-  <tr>
-  <th>title</th>
-  <th>module</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-  <td><div>المعمل 1: إنشاء بُعد مالي</div></td>
-  <td><div>الوحدة 2: تعرف على أساسيات Microsoft Dynamics 365 Finance</div></td>
-  </tr>
-  </tbody>
-</table>
-</div></td>
-  </tr>
-  </tbody>
-</table>
+---
+lab:
+  title: 'النشاط المعملي 1: إنشاء بُعد مالي'
+  module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
+ms.openlocfilehash: 9bbc1a92cb719b988ddfa6a08e1e3b2d8c69976e
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909252"
+---
+## <a name="lab-1---create-a-financial-dimension"></a>المعمل 1 - إنشاء بُعد مالي
 
-## المعمل 1 - إنشاء بُعد مالي
-
-## الأهداف
+## <a name="objectives"></a>الأهداف
 
 استخدم صفحة الأبعاد المالية لإنشاء أبعاد مالية يمكنك استخدامها كشرائح حساب لمخططات الحسابات. هناك نوعان من الأبعاد المالية: الأبعاد المخصصة والأبعاد المدعومة من الكيان. تتم مشاركة الأبعاد المخصصة عبر الكيانات القانونية، ويتم إدخال القيم والاحتفاظ بها من قبل المستخدمين. بالنسبة للأبعاد المدعومة من الكيان، يتم تحديد القيم في مكان آخر في النظام، مثل كيانات العملاء أو المتاجر. تتم مشاركة بعض الأبعاد المدعومة من قبل الكيان عبر الكيانات القانونية، في حين أن الأبعاد الأخرى المدعومة من قبل الكيان تكون خاصة بالشركة.
 
 يجب عليك إنشاء بُعد مالي مخصص ستستخدمه شركتك.
 
-## إعداد المعمل
+## <a name="lab-setup"></a>إعداد النشاط المعملي
 
-   - **الزمن المقدر**: 5 دقائق
+   - **الزمن المقدر**: 5 minutes
 
-## الإرشادات
+## <a name="instructions"></a>الإرشادات
 
 1. في صفحة Finance and Operations الرئيسية، أعلى اليسار، تحقق من أنك تعمل مع شركة USMF.
 
 1. إذا لزم الأمر، حدد الشركة، ومن القائمة، حدد **USMF**.
 
-1. في جزء التنقل الأيمن، حدد **الوحدات**  >  **دفتر الأستاذ العام**  >  **جدول الحسابات**  >  **الأبعاد**  >  **الأبعاد المالية**.
+1. في جزء التنقل الأيسر، حدد **Modules** > **General ledger** > **Chart of accounts** > **Dimensions** > **Financial dimensions**.
 
 1. في القائمة العلوية، حدد **+ جديد**.
 
-1. في صفحة الأبعاد المالية، حدد قائمة **استخدام القيم من**، ثم حدد **<بُعد مخصص>**.
+1. في صفحة الأبعاد المالية، حدد قائمة **استخدام القيم من**، ثم حدد **<بُعد مخصص>** .
 
 1. في مربع اسم **البعد**، أدخل **Affliate_Revenue**.
 
@@ -64,4 +47,4 @@
 
     ![لقطة شاشة تعرض رسالة إعلام تحذيرية تشير إلى متطلبات وضع الصيانة لتنشيط بُعد جديد.](./media/lp2-m3-activation-warning-banner.png)
 
-    >[ [ملاحظة] يمكن تشغيل وضع الصيانة وإيقافه مباشرةً من خلال Lifecycle Services (LCS) في آلية تحديد الوصول وبيئات الإنتاج. يمكن العثور على مزيدٍ من المعلومات عن إدارة خدمات دورة الحياة على الرابط التالي [https://docs.microsoft.com/ar-sa/dynamics365/fin-ops-core/dev-itpro/deployment/maintenanceoperationsguide-newinfrastructure](https://docs.microsoft.com/ar-sa/dynamics365/fin-ops-core/dev-itpro/deployment/maintenanceoperationsguide-newinfrastructure).
+    >[!NOTE] يمكن تشغيل وضع الصيانة وإيقاف تشغيله مباشرة من خلال خدمات دورة الحياة (LCS) على بيئة الاختبار المعزولة وبيئات الإنتاج. يمكن العثور على مزيد من المعلومات حول إدارة خدمات دورة الحياة في [https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/maintenanceoperationsguide-newinfrastructure](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/maintenanceoperationsguide-newinfrastructure).

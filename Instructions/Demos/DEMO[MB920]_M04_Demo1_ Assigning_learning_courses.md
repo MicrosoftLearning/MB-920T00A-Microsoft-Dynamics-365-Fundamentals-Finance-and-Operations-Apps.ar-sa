@@ -1,32 +1,15 @@
-<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><table>
-  <thead>
-  <tr>
-  <th>demo</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-  <td><div><table>
-  <thead>
-  <tr>
-  <th>title</th>
-  <th>module</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-  <td><div>العرض التوضيحي 1: تعيين دورات التعلم</div></td>
-  <td><div>الوحدة 4: تعرف على أساسيات Microsoft Dynamics 365 Human Resources</div></td>
-  </tr>
-  </tbody>
-</table>
-</div></td>
-  </tr>
-  </tbody>
-</table>
-
-## العرض التوضيحي 1 - تعيين دورات التعلم
+---
+demo:
+  title: 'العرض التوضيحي 1: تعيين دورات التعلم'
+  module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Human Resources'
+ms.openlocfilehash: 06483c659174e77391b0181963299d51f2011d35
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909163"
+---
+## <a name="demo-1---assigning-learning-courses"></a>العرض التوضيحي 1 - تعيين دورات التعلم
 
 1. استعرض للوصول إلى صفحة **Microsoft Dynamics 365 Human Resources** الرئيسية.  
     في Microsoft Dynamics 365 Human Resources، يمكن لمديري الموظفين تعيين دورات تدريبية للموظفين. في هذا المثال، يجب تعيين موظفة الشركة الجديدة -أليسيا- على التدريب المتاح للموظفين خلال أول ثلاثين يومًا.
@@ -86,7 +69,7 @@
 
 1. حدد تاريخ البدء الجديد للدورة. على سبيل المثال، **6 يناير 2021**.
 
-1. حدد **حفظ**.
+1. حدد ⁧**⁩حفظ⁧**⁩.
 
 1. حدد أيقونة **X** لتحميل الصفحة الجديدة.
 

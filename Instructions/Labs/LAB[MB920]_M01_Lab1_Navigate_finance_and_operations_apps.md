@@ -1,46 +1,29 @@
-﻿<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><table>
-  <thead>
-  <tr>
-  <th>lab</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-  <td><div><table>
-  <thead>
-  <tr>
-  <th>title</th>
-  <th>module</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-  <td><div>المعمل 1: تصفح تطبيقات Finance and Operations Apps</div></td>
-  <td><div>الوحدة 1: تعرف على أساسيات Microsoft Dynamics 365 Supply Chain Management</div></td>
-  </tr>
-  </tbody>
-</table>
-</div></td>
-  </tr>
-  </tbody>
-</table>
+---
+lab:
+  title: 'النشاط المعملي 1: تصفح تطبيقات Finance and Operations Apps'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: b0202a22e00a6fb2d561179ed1d6006f13d871f9
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909175"
+---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>الوحدة الأولى: تعرف على أساسيات Microsoft Dynamics 365 - Supply Chain Management
 
-# الوحدة 1: تعرف على أساسيات Microsoft Dynamics 365 - Supply Chain Management
+## <a name="lab-1---navigate-finance-and-operations-apps"></a>المعمل 1- تصفح تطبيقات Finance and Operations Apps
 
-## المعمل 1- تصفح تطبيقات Finance and Operations Apps
-
-## الأهداف
+## <a name="objectives"></a>الأهداف
 
 الآن بعد أن أصبحت على دراية Finance and Operations Apps، استغرق بعض الوقت لاستكشاف الواجهة.
 
-## إعداد المعمل
+## <a name="lab-setup"></a>إعداد النشاط المعملي
 
 - **الزمن المقدر**: 10 دقائق
 
-## الإرشادات
+## <a name="instructions"></a>الإرشادات
 
-### سجّل الدخول إلى كمبيوتر المعمل
+### <a name="sign-in-to-the-lab-computer"></a>سجّل الدخول إلى كمبيوتر المعمل
 
 1. سجّل الدخول إلى كمبيوتر المعمل باستخدام بيانات الاعتماد أدناه
 
@@ -48,7 +31,7 @@
 
         لصق المحتوى
 
-        Administrator
+        مسؤول
 
     - كلمة المرور:
 
@@ -56,7 +39,7 @@
 
         pass@word1
 
-    > [! ملاحظة] قد يفتح Internet Explorer تلقائيًا في سطح المكتب. إذا لم تكن قد أكملت بالفعل الخطوات من 2 إلى 5، فالرجاء الانتهاء منها قبل العودة إلى Internet Explorer.
+    >[!Note] قد يتم فتح Internet Explorer تلقائيًا في سطح المكتب. إذا لم تكن قد أكملت بالفعل الخطوات من 2 إلى 5، فالرجاء الانتهاء منها قبل العودة إلى Internet Explorer.
 
 1. حدد ملف **AdminUserProvisioning** على سطح المكتب.
 
@@ -69,11 +52,11 @@
 
 1. افتح **Internet Explorer**.
 
-1. تصفح إلى الرابط المحدد: <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
+1. تصفح إلى الارتباط المحدد: <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 
 1. سجّل الدخول باستخدام بيانات الاعتماد المتوفرة في قائمة **الموارد.**
 
-### تصفح تطبيقات Finance and Operations Apps
+### <a name="navigate-finance-and-operations-apps"></a>تصفح تطبيقات Finance and Operations Apps
 1. في الصفحة الرئيسية لـ Finance and Operations، إذا تم تكوينها، سترى:
 
     - قائمة التنقل الموجودة على اليسار مطوية افتراضيًا.
@@ -95,13 +78,13 @@
 
 1. جزء التنقل هو المكان الذي ستجد فيه مجموعات **المفضلات** والعناصر **الحديثة** **ومساحات العمل** **والوحدات**.
 
-1. في جزء التنقل، حدد **الوحدات**  >  **إدارة النظام**.
+1. في جزء التنقل، حدد **الوحدات** > **إدارة النظام**.
 
 1. قم بمراجعة المناطق المتاحة في وحدة إدارة النظام.
 
 1. ضمن **الإعداد**، حدد **خيارات أداء العميل**.
 
-1. في جزء خيارات أداء العميل، ضمن **تمكين وسائل شرح الميزات**، حدد مفتاح التبديل وتأكد من تعيينه على **نعم**.
+1. في جزء Client performance options، ضمن **Feature callouts enabled**، حدد مفتاح التبديل وقم بتعيينه على **Yes**.
 
 1. راجع الخيارات الأخرى المتاحة، وقم بالتمرير إلى أسفل الجزء، ثم حدد **موافق**.
 

@@ -1,45 +1,27 @@
-﻿<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><table>
-  <thead>
-  <tr>
-  <th>lab</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-  <td><div><table>
-  <thead>
-  <tr>
-  <th>title</th>
-  <th>module</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-  <td><div>المعمل 3: إنشاء عرض منتج بأحجام وألوان مختلفة</div></td>
-  <td><div>الوحدة 1: تعرف على أساسيات Microsoft Dynamics 365 Supply Chain Management</div></td>
-  </tr>
-  </tbody>
-</table>
-</div></td>
-  </tr>
-  </tbody>
-</table>
+---
+lab:
+  title: 'النشاط المعملي 3: قم بإنشاء عرض منتج بأحجام وألوان مختلفة'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 268432a06fab68b219e68d0748b959aa089045c4
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909205"
+---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>الوحدة الأولى: تعرف على أساسيات Microsoft Dynamics 365 - Supply Chain Management
 
+## <a name="lab-3---create-a-new-product"></a>النشاط المعملي 3 - إنشاء منتج جديد
 
-# الوحدة 1: تعرف على أساسيات Microsoft Dynamics 365 - Supply Chain Management
-
-## النشاط المعملي 3 - إنشاء منتج جديد
-
-## الأهداف
+## <a name="objectives"></a>الأهداف
 
 في Contoso Entertainment System USA (USMF)، تحتاج إلى إنشاء عنصر جديد لتكوين جديد للخزانة ليتم شراؤه من المورّدين.
 
-## إعداد المعمل
+## <a name="lab-setup"></a>إعداد النشاط المعملي
 
    - **الزمن المقدر**: 10 دقائق
 
-## الإرشادات
+## <a name="instructions"></a>الإرشادات
 
 1. في صفحة Finance and Operations الرئيسية، أعلى اليسار، تحقق من أنك تعمل مع شركة USMF.
 
@@ -47,25 +29,25 @@
 
 1. في الجزء العلوي الأيسر، حدد القائمة على شكل هامبرجر **توسيع جزء التنقل**.
 
-1. في جزء التنقل، حدد **الوحدات** >  **إدارة معلومات المنتج،** ثم ضمن فئة **المنتجات**، حدد **المنتجات الصادرة**.
+1. في جزء التنقل، حدد **Modules** > **Product information management**، ثم ضمن فئة **Products**، حدد **Released products**.
 
-1. في صفحة تفاصيل المنتج الصادر، في القائمة العلوية، حدد **+ جديد**.
+1. في صفحة Released product details، في القائمة العلوية، حدد **+ New**.
 
-1. في جزء إصدار منتج جديد، في قائمة **نوع المنتج**، تحقق من تحديد **العنصر**.
+1. في جزء New released product، في قائمة **Product type** تحقق من تحديد **Item**.
 
-1. في قائمة **نوع المنتج الفرعي**، تحقق من تحديد **المنتج**.
+1. في القائمة **Product subtype**، تحقق من تحديد **Product**.
 
-1. حدد القائمة **مجموعة بُعد التعقب،** ثم حدد **لا شيء.**
+1. حدد القائمة **Tracking dimension group** ثم حدد **None**.
 
-1. ضمن **المعرف**، في المربعين **رقم المنتج** و**رقم العنصر**، أدخل **GTL007**.
+1. ضمن **IDENTIFICATION**، في المربعين **Product number** و **Item number**، أدخل **GTL007**.
 
-1. في المربع **اسم المنتج**، أدخل **الخزانة 2**.
+1. في المربع **Product name**، أدخل **Cabinet 2**.
 
-1. ضمن **المجموعات المرجعية**، حدد قائمة **مجموعة نماذج العنصر**، ثم حدد **الوارد أولاً يصرف أولاً**.
+1. ضمن **REFERENCE GROUPS**، حدد قائمة **Item model group**، ثم حدد **FIFO First In-First Out**.
 
-1. حدد قائمة **مجموعة العناصر** ثم حدد **التلفزيون والفيديو**.
+1. حدد قائمة **Item group** ثم حدد **TV&Video**.
 
-1. حدد قائمة **مجموعة أبعاد التخزين**، ثم حدد **SiteWH**.
+1. حدد قائمة **Storage dimension group**، ثم حدد **SiteWH**.
 
 1. ضمن **وحدات القياس**، تحقق من تعيين القيم التالية:
 
@@ -76,19 +58,19 @@
     | وحدة المبيعات| الكل|
     | وحدة BOM| الكل|
 
-1. ضمن **ضرائب المبيعات،** حدد القائمة **مجموعة ضريبة المبيعات للعناصر،** ثم حدد **الكل.**
+1. ضمن **SALES TAXATION** حدد القائمة **Item sales tax group** ثم حدد **ALL**.
 
-1. ضمن **ضرائب المشتريات،** حدد القائمة **مجموعة ضريبة المبيعات للعناصر**، ثم حدد **الكل.**
+1. ضمن **PURCHASE TAXATION**، حدد القائمة **Item sales tax group**، ثم حدد **ALL**.
 
-1. ضمن الأسعار، في المربع سعر الشراء، أدخل 30.00.
+1. ضمن PRICES، في المربع Purchase price، أدخل 30.00.
 
-1. في المربع سعر المبيعات، أدخل 30.00.
+1. في المربع Sales price، أدخل 30.00.
 
 1. يجب أن يبدو منتجك الجديد كالتالي:
 
     ![صورة شاشة تعرض نموذج منتج الإصدار الجديد المكتمل](./media/lp1-m2-new-release-product.png)
 
-1. حدد **موافق**.
+1. حدد "**OK**".
 
 1. لضمان إنهاء المنتج، في الشريط الشريطي، أسفل **صيانة**، حدد **التحقق من الصحة**.
 

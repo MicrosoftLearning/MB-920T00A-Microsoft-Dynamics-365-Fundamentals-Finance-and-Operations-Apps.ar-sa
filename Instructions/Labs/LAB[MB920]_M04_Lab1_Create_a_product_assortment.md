@@ -2,13 +2,8 @@
 lab:
   title: 'النشاط المعملي 1: إنشاء فرز منتج'
   module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Commerce'
-ms.openlocfilehash: 7a1764cacfbf92ca50cda3baf9c8f374bf99bacd
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: ar-SA
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116225"
 ---
+
 ## <a name="lab-1---create-a-product-assortment"></a>النشاط معملي 1 - إنشاء عملية فرز منتج
 
 ## <a name="objectives"></a>الأهداف
@@ -33,7 +28,7 @@ ms.locfileid: "147116225"
 
 1. حدد مربع **تاريخ السريان**، ثم حدد تاريخًا في المستقبل.
 
-1. في مربع **اسم عملية الفرز**، أدخل اسمًا لعملية الفرز الجديدة. على سبيل المثال، **موسم الربيع الجديد**.
+1. In the <bpt id="p1">**</bpt>Assortment name<ept id="p1">**</ept> box, enter a name for the new assortment. For example, <bpt id="p1">**</bpt>New Spring Season<ept id="p1">**</ept>.
 
 1. اضبط **تاريخ انتهاء الصلاحية** على **أبدًا**.
 
@@ -60,7 +55,7 @@ ms.locfileid: "147116225"
 
 1. سيؤدي هذا إلى إضافة جميع العناصر الفرعية للفئة الأصل.
 
-1. راجع العمود الأخير المسمى **نوع السطر**. بشكل افتراضي، سيتم تضمين كافة العناصر.
+1. Review the last column named <bpt id="p1">**</bpt>Line type<ept id="p1">**</ept>. By default, all items will be included.
 
 1. حدد **+ إضافة سطر**، وحدد قائمة **الفئة**، وقم بتوسيع **الرياضات الجماعية (الرياضات الجماعية)** ، وحدد **البيسبول**، ثم حدد **موافق**.
 
@@ -68,7 +63,7 @@ ms.locfileid: "147116225"
 
 1. باستخدام صف فئة البيسبول، حدد قائمة **المنتجات**.
 
-1. عندما يتم تحديد منتجات ضمن فئة، يمكنك تحديد منتج معين لتضمينه أو استبعاده. حدد **ملعب البيسبول للكبار**.
+1. When products within a category are defined, you can select a specific product to include or exclude. Select <bpt id="p1">**</bpt>AdultBaseballInfield<ept id="p1">**</ept>.
 
 1. لإزالة منتج مضاف، احذف محتويات مربع المنتج، ثم اضغط على مفتاح Tab في لوحة المفاتيح أو حدد منطقة أخرى من الصفحة.
 

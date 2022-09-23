@@ -1,37 +1,15 @@
-<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><table>
-  <thead>
-  <tr>
-  <th>demo</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-  <td><div><table>
-  <thead>
-  <tr>
-  <th>title</th>
-  <th>module</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-  <td><div>العرض التوضيحي 1: تعيين دورات التعلم</div></td>
-  <td><div>الوحدة 4: تعرف على أساسيات Microsoft Dynamics 365 Human Resources</div></td>
-  </tr>
-  </tbody>
-</table>
-</div></td>
-  </tr>
-  </tbody>
-</table>
+---
+demo:
+  title: 'العرض التوضيحي 1: تعيين دورات التعلم'
+  module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Human Resources'
+---
 
-## العرض التوضيحي 1 - تعيين دورات التعلم
+## <a name="demo-1---assigning-learning-courses"></a>العرض التوضيحي 1 - تعيين دورات التعلم
 
 1. استعرض للوصول إلى صفحة **Microsoft Dynamics 365 Human Resources** الرئيسية.  
-    في Microsoft Dynamics 365 Human Resources، يمكن لمديري الموظفين تعيين دورات تدريبية للموظفين. في هذا المثال، يجب تعيين موظفة الشركة الجديدة -أليسيا- على التدريب المتاح للموظفين خلال أول ثلاثين يومًا.
+    In Microsoft Dynamics 365 Human Resources, personnel managers can assign training courses to employees. In this example, the company’s new hire, Alicia, needs to be assigned the training that is available to employees within their first thirty days.
 
-1. في منتقي الشركة العلوي الأيمن، تحقق من أن الشركة التي تتصل بها هي **USMF**. إذا لم تكن كذلك، غيرها إلى **USMF**.
+1. In the top-right company picker, verify that the company you are connecting to is <bpt id="p1">**</bpt>USMF<ept id="p1">**</ept>. If it’s not, change it to <bpt id="p1">**</bpt>USMF<ept id="p1">**</ept>.
 
 1. في الزاوية العلوية اليسرى من الشاشة، حدد علامة التبويب **إدارة الأفراد.**
 
@@ -39,13 +17,13 @@
 
     ![لقطة شاشة لصفحة إدارة الأفراد مع تمييز أرقام الموظفين.](./media/assigning_learning_courses_1_employee.png)
 
-1. في جدول **الموظفين**، حدد اسم الموظف الذي تريد تعيين تدريب له. على سبيل المثال، **Alicia Thornber**.  
+1. In the <bpt id="p1">**</bpt>Employees<ept id="p1">**</ept> table, select the name of the employee to assign training to. For example, <bpt id="p1">**</bpt>Alicia Thornber<ept id="p1">**</ept>.  
     بعد ذلك، استخدم علامة التبويب "الاختصاصات والتطوير" للاطلاع على ارتباطات إلى معلومات حول شهادات الموظف وتعليمه ومهاراته.
 
 1. في صفحة الموظف، حدد علامة التبويب **الاختصاصات والتطوير.**
 
 1. في **قسم الاختصاصات**، حدد **الدورات**.  
-    من صفحة "الدورات التدريبية" الخاصة بالموظف، يمكنك معرفة ما إذا تم تعيين أي دورات تدريبية له. في حالة أليسيا، لم يتم سرد أي دورات. لعرض الدورات التدريبية المتاحة لتعيينها إليها، تحتاج إلى تحديد قائمة "معرف الدورة التدريبية".
+    From an employee’s Courses page, you can see whether any courses have been assigned. In Alicia’s case, no courses are listed. To view available courses to assign, you need to select the Course ID menu.
 
 1. حدد قائمة **معرف الدورة التدريبية.**
 
@@ -61,17 +39,17 @@
 1. في قائمة **حالة الدورة التدريبية**، حدد **تطبيق** لمشاهدة جميع الدورات التدريبية المفتوحة المتاحة.  
     الآن، يمكنك تعيين دورة تدريب الموظف الجديد إلى أليسيا.
 
-1. حدد الدورة التي ترغب في تعيينها. على سبيل المثال، **00006 تدريب الموظف الجديد**.
+1. في Microsoft Dynamics 365 Human Resources، يمكن لمديري الموظفين تعيين دورات تدريبية للموظفين.
 
 1. في جزء "نقل بيانات الدورة التدريبية"، حدد **نعم**.
 
 1. في صفحة **الدورات التدريبية**، في عمود **تاريخ البدء**، حدد أيقونة **التقويم**.
 
-1. في التقويم، حدد تاريخ البدء. على سبيل المثال، **5 يناير 2021**.
+1. في هذا المثال، يجب تعيين موظفة الشركة الجديدة -أليسيا- على التدريب المتاح للموظفين خلال أول ثلاثين يومًا.
 
 1. في عمود **تاريخ الانتهاء**، حدد أيقونة **التقويم**.
 
-1. في التقويم، حدد تاريخ انتهاء التدريب. على سبيل المثال، **8 يناير 2021**.
+1. In the calendar, select the end date for the training. For example, <bpt id="p1">**</bpt>January 8th 2021<ept id="p1">**</ept>.
 
 1. على الجانب الأيسر من صفحة **الدورات التدريبية**، حدد **حفظ** لحفظ التغييرات.
 
@@ -84,9 +62,9 @@
 
 1. في عمود **تاريخ البدء**، حدد أيقونة **التقويم**.
 
-1. حدد تاريخ البدء الجديد للدورة. على سبيل المثال، **6 يناير 2021**.
+1. في منتقي الشركة العلوي الأيمن، تحقق من أن الشركة التي تتصل بها هي **USMF**.
 
-1. حدد **حفظ**.
+1. حدد ⁧**⁩حفظ⁧**⁩.
 
 1. حدد أيقونة **X** لتحميل الصفحة الجديدة.
 

@@ -1,32 +1,15 @@
-<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><table>
-  <thead>
-  <tr>
-  <th>demo</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-  <td><div><table>
-  <thead>
-  <tr>
-  <th>title</th>
-  <th>module</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-  <td><div>العرض التوضيحي 1: إقفال نهاية الشهر</div></td>
-  <td><div>الوحدة 2: تعرف على أساسيات Microsoft Dynamics 365 Finance</div></td>
-  </tr>
-  </tbody>
-</table>
-</div></td>
-  </tr>
-  </tbody>
-</table>
-
-## العرض التوضيحي 1 - إقفال نهاية الشهر
+---
+demo:
+  title: 'العرض التوضيحي 1: إقفال نهاية الشهر'
+  module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
+ms.openlocfilehash: 64e058508083538795592815e4657ac905000ded
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909153"
+---
+## <a name="demo-1---month-end-close"></a>العرض التوضيحي 1 - إقفال نهاية الشهر
 
 1. استعرض للوصول إلى الصفحة الرئيسية **لـ Microsoft 365 for Finance and Operations.**  
     لإنشاء إقفال فترة مالية جديد في Microsoft Dynamics 365 for Finance and Operations، مثل إقفال نهاية الشهر، انتقل أولاً إلى وحدة **دفتر الأستاذ العام.**
@@ -67,7 +50,7 @@
 
 1. في الجزء العلوي الأيسر من القائمة المنسدلة **الشركة**، حدد **علامة الاختيار** لتحديد جميع الشركات.
 
-1. حدد **إنشاء**.  
+1. حدد **Create**.  
     لقد أنشأنا الآن جدولاً لإقفال نهاية الشهر. في هذا المثال، تم بالفعل إنشاء العديد من عناصر الجدول من قبل المجموعة المسؤولة عن إدارة النظام المالي. على سبيل المثال، يعكس قالب نهاية الشهر بالفعل مناطق المهام المختلفة.
 
 1. في صفحة **تكوين إقفال الفترة المالية**، حدد علامة التبويب **القوالب.**
@@ -87,7 +70,7 @@
 1. ضمن علامة التبويب **التقويمات**، حدد **تحرير**.  
     تم إعداد هذا التقويم بحيث يتم اعتبار كل يوم من أيام الأسبوع يوم عمل وكل يوم عطلة نهاية أسبوع ليس بيوم عمل.
 
-1. حدد **إلغاء**.
+1. حدد **إلغاء الأمر**.
 
 1. في صفحة **تكوين إقفال الفترة المالية**، حدد علامة التبويب **مناطق المهام.**  
     هنا، تم تحديد مناطق المهام عالية المستوى. في هذه الحالة، لا تتضمن هذه المناطق أدوارًا أمنية.

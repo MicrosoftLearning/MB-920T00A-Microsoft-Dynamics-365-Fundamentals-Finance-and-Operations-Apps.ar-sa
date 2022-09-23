@@ -1,43 +1,21 @@
-<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0" dir="rtl">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><table>
-  <thead>
-  <tr>
-  <th>demo</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-  <td><div><table>
-  <thead>
-  <tr>
-  <th>title</th>
-  <th>module</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-  <td><div>العرض التوضيحي 3: استكشف تكاليف المشروع</div></td>
-  <td><div>الوحدة 5: تعرف على أساسيات Microsoft Dynamics 365 Project Operations</div></td>
-  </tr>
-  </tbody>
-</table>
-</div></td>
-  </tr>
-  </tbody>
-</table>
+---
+demo:
+  title: 'العرض التوضيحي 3: استكشاف تكاليف المشروع'
+  module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
+---
 
-## العرض التوضيحي 3 - استكشف تكاليف المشروع
+## <a name="demo-3---explore-project-costs"></a>العرض التوضيحي 3 - استكشف تكاليف المشروع
 
-في هذا العرض التوضيحي، سنتعرف على كيفية إنشاء إدخال الوقت والنفقات الذي سيتم تحميله على مشروع Contoso Consulting. سنستكشف الإدخالات بتنسيقات محسّنة للويب والعرض التقديمي للجوال، وسنرى كيف يتم استخدام سير العمل لإدارة عملية الموافقة.
+In this demo, we will walk through the creation of a time and expense entry that will be charged to the Contoso Consulting project. We'll explore the entries in formats optimized for web and mobile presentation, and we'll see how a workflow is used to manage the approval process.
 
-1. في **Dynamics 365 for Finance and Operations**، في جزء التنقل، حدد **الوحدات > إدارة المشاريع ومحاسبتها > الجداول الزمنية > جداولي الزمنية (مُحسّنة لأجهزة المحمول)**.  
-    للبدء، على الرغم من أنني لست على جهاز محمول في الوقت الحالي، فسوف تتعرف على النماذج على أنها متوافقة مع الجوّال بعد أن نختار الخيار **جداولي الزمنية (مُحسّنة لأجهزة المحمول)**.
+1. في **Dynamics 365 for Finance and Operations**، في جزء التنقل، حدد **الوحدات > إدارة المشاريع ومحاسبتها > الجداول الزمنية > جداولي الزمنية (مُحسّنة لأجهزة المحمول)** .  
+    للبدء، على الرغم من أنني لست على جهاز محمول في الوقت الحالي، فسوف تتعرف على النماذج على أنها متوافقة مع الجوّال بعد أن نختار الخيار **جداولي الزمنية (مُحسّنة لأجهزة المحمول)** .
 
     ![لقطة شاشة لقائمة إدارة المشاريع والمحاسبة مع إبراز جداولي الزمنية (مُحسّنة لأجهزة المحمول).](./media/projops_costs_1_select_my_timesheets.png)  
 
     هذا التحسين هو عامل تمييز رئيسي لتطبيقات أعمال Microsoft ويساعد في ضمان وجود حد أدنى من منحنى التعلم بين استخدام الويب والهاتف المحمول.
 
-1. في منتقي الشركة العلوي الأيمن، تحقق من أن الكيان القانوني الذي تتصل به هو **USSI**. إذا لم يكن كذلك، قم بتغيير الكيان القانوني إلى **USSI**.
+1. In the top right company picker, verify the legal entity you are connecting to is <bpt id="p1">**</bpt>USSI<ept id="p1">**</ept>. If it's not, change the legal entity to <bpt id="p1">**</bpt>USSI<ept id="p1">**</ept>.
 
 1. في صفحة **جداولي الزمنية**، حدد **جديد**.  
     سنقوم الآن بإنشاء جدول زمني جديد يعتمد على الإعدادات التي تم تكوينها.
@@ -48,18 +26,18 @@
 1. أشر إلى **إنشاء من المفضلة**.  
     إذا كانت لديك مفضلات محفوظة، فيمكنك تحديد الإنشاء منها لتوفير الوقت.
 
-1. عند الانتهاء، حدد "**موافق"**.
+1. عند الاكتمال، حدد **OK**.
 
-1. في صفحة **تفاصيل جداولي الزمنية**، حدد **جديد +**.
+1. في صفحة **تفاصيل جداولي الزمنية**، حدد **جديد +** .
 
 1. في **جزء سطر الجدول الزمني الجديد**، أشر إلى مربع **الكيان القانوني.**  
-    سيتم فتح سطر الجدول الزمني الجديد، مع تفاصيل مثل العميل، والمشروع، والفئة، وخصائص السطر، ومعلمات الضرائب. يمكنك أيضًا تحديد كيان قانوني مختلف إذا كان إدخال الوقت نيابة عن شركة أخرى داخل مؤسستك.
+    The new timesheet line will be opened, with details such as the customer, the project, the category, the line properties, and tax parameters. You can also select a different legal entity if the time entry is on behalf of another company within your organization.
 
 1. حدد قائمة **معرف المشروع.**
 
 1. حدد أحد المشاريع المتاحة، مثل مشروع **Contoso Consulting**.
 
-1. عند الانتهاء، حدد "**موافق"**.  
+1. عند الاكتمال، حدد **OK**.  
     ستفتح شاشة الهاتف المحمول المحسّنة لإدخال الوقت ويمكنك البدء في حجز ساعاتك كل يوم للمشروع والفئة، في هذه الحالة **الخدمة**.
 
 1. في صفحة **إدخال الوقت**، في مربع **الاثنين**، أدخل **8**.  
@@ -67,10 +45,10 @@
 
     ![لقطة شاشة لصفحة إدخال الوقت.](./media/projops_costs_2_mon_box.png)
 
-1. في مربع **التعليق الداخلي**، أضف تعليقًا. على سبيل المثال: **قد ترغب في التحدث معهم عن الدراجات الجديدة**.  
+1. في هذا العرض التوضيحي، سنتعرف على كيفية إنشاء إدخال الوقت والنفقات الذي سيتم تحميله على مشروع Contoso Consulting.  
     يمكنك أيضًا إدخال تعليقات داخلية وخارجية ضد المشروع لضمان فهم جميع الأطراف لطبيعة الساعات التي يتم تسجيلها.
 
-1. في مربع **التعليق الخارجي**، أضف تعليقًا. على سبيل المثال: **تم تعديل السلاسل وتمت محاذاة العجلات الأمامية على الأسطول**.
+1. سنستكشف الإدخالات بتنسيقات محسّنة للويب والعرض التقديمي للجوال، وسنرى كيف يتم استخدام سير العمل لإدارة عملية الموافقة.
 
 1. في شريط التنقل، حدد **حفظ**.
 
@@ -79,24 +57,24 @@
 1. في صفحة **جداولي الزمنية**، حدد إدخال الوقت الذي قمت بإنشائه مسبقًا.
 
 1. في علامة التبويب **الجدول الزمني**، أشر إلى عمود الفئة.  
-    افترض الآن أننا عدنا إلى جهاز كمبيوتر ونراجع وقتنا من داخل نموذج الجدول الزمني للويب. لا يزال بإمكاننا رؤية نفس المعلومات، مثل الفئة والساعات.
+    Now assume we've returned to a computer and are reviewing our time from within the web timesheet form. We can still see the same information, such as the category and the hours.
 
 1. ضمن **تفاصيل السطر**، أشر إلى **التعليق الداخلي والتعليق** **الخارجي**.  
-    يمكننا أيضًا مراجعة التعليقات التي أدخلناها سابقًا. المعلومات موجودة، لكن تنسيق التخطيط مختلف قليلاً. غالبًا ما يتم استخدام هذا التنسيق للمراجعة النهائية لأنه قد يكون من الأسهل على الأشخاص مراجعة وقتهم والتحقق من صحته، خاصةً عندما يتم تعيين شخص ما في مشاريع أو فئات متعددة.
+    We can also review the comments we entered earlier. The information is there, but the layout format is just a bit different. This format is often used for final review because it can be easier for people to review and validate their time, especially when someone is assigned to multiple projects or categories.
 
 1. في شريط التنقل، انقر فوق علامة التبويب **سير العمل**.  
-    إذا كنا راضين عن الجدول الزمني، فيمكننا إرساله. سيتم تحديد الموافقات المطلوبة من قبل كل مؤسسة أثناء مرحلة التنفيذ بناءً على سياسات الشركة الخاصة بها.
+    If we're satisfied with the timesheet, we can submit it. The approvals required will be determined by each organization during the implementation phase based on their own company policies.
 
 1. في جزء **مراجعة سير عمل الجدول الزمني**، حدد **إرسال**.
 
 1. في جزء **مراجعة سير عمل الجدول الزمني - إرسال**، أضف أي تعليقات إضافية.
 
-1. حدد **إرسال**.
+1. حدد **"Submit"**.
 
-1. استعرض إلى صفحة **حركات الساعة.** إذا كانت علامة تبويب **حركات الساعة** غير نشطة، فاستعرض إلى صفحة **جداولي الزمنية**، وحدد الجدول الزمني الذي تم إنشاؤه مسبقًا.
+1. Browse to the <bpt id="p1">**</bpt>Hour transactions<ept id="p1">**</ept> page. If the <bpt id="p1">**</bpt>Hour transactions<ept id="p1">**</ept> tab is grayed out, browse to the <bpt id="p2">**</bpt>My timesheets page<ept id="p2">**</ept>, and select the previously created timesheet.
 
 1. في صفحة **حركات الساعة**، قم بمراجعة الصفحة.  
-    عند الموافقة، سيتم نشر النتائج وستظهر في صفحة حركات الساعة. يمكننا رؤية جميع المعلومات ذات الصلة، مثل الكيان القانوني، والمشروع، والفئة، والساعات، وفي هذه الحالة، حتى عرض سعر التكلفة وسعر البيع.  
+    Upon approval, the results will be posted and will be visible in the Hour transactions page. We can see all the relevant information, such as the legal entity, project, category, hours, and in this case, even a view of the cost price and the sales price.  
 
 بعد ذلك، يمكننا التعمق في حركات الإيصال.
 
@@ -111,9 +89,9 @@
 
 1. في صفحة **إدارة المصروفات**، في علامة التبويب **التقارير**، حدد **+ تقرير مصروفات جديد**.
 
-1. في جزء **تقرير المصروفات الجديدة**، في **مربع الغرض**، أدخل عنوانًا. على سبيل المثال، شركة **Contoso - فبراير 2021**.
+1. في منتقي الشركة العلوي الأيمن، تحقق من أن الكيان القانوني الذي تتصل به هو **USSI**.
 
-1. حدد **موافق**.
+1. حدد "**OK**".
 
 1. في صفحة **المصروفات**، حدد **+ مصروفات جديدة**.  
 سيظهر خط حساب جديد.
@@ -125,10 +103,10 @@
 
 1. في عمود **العملة**، حدد **الدولار الأمريكي**.
 
-1. في عمود **تاريخ الحركة**، حدد تاريخًا. على سبيل المثال، **2/1/2021**.  
+1. إذا لم يكن كذلك، قم بتغيير الكيان القانوني إلى **USSI**.  
     بمجرد إدخال جميع التفاصيل، يمكنك حفظ المصروفات.
 
-1. حدد **حفظ**.
+1. حدد ⁧**⁩حفظ⁧**⁩.
 
 1. في قائمة التنقل اليمنى، ضمن **مساحات العمل**، حدد **إدارة المصروفات**.
 
@@ -146,9 +124,9 @@
 
 1. في مربع **التعليق**، أضف أي تعليقات إضافية.
 
-1. حدد **إرسال**.
+1. حدد **"Submit"**.
 
 1. في **صفحة إدارة المصروفات**، أشر إلى عمود **حالة الموافقة.**  
-    في هذا الوقت، سيتم تنشيط سياسات السفر وتدفق الموافقة على النفقات. تم ترحيل التكاليف وتطبيقها على مشروع شركة Contoso Consulting وستتوفر لاحقًا للفوترة إذا كانت خاضعة للرسوم.
+    At this time, travel policies and expense approval flow will be activated. The costs have been posted and applied to the Contoso Consulting project and will be available later for invoicing if chargeable.
 
-في هذا العرض التوضيحي، قمنا بمعالجة إدخال الوقت والمصروفات التي تم تحميلها على مشروع شركة Contoso Consulting. لقد رأينا عينات في تنسيقات الويب والهاتف المحمول وتمكنا من معرفة كيفية استخدام مهام سير العمل لإدارة الموافقات المطلوبة من قبل مؤسسة USSI.
+In this demo, we have processed a time and expense entry that was charged to the Contoso Consulting project. We saw samples in web and mobile formats and were able to see how workflows are used to manage the approvals required by the USSI organization.

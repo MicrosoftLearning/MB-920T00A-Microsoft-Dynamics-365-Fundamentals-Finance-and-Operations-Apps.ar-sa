@@ -2,13 +2,8 @@
 lab:
   title: 'النشاط المعملي 1: نشاء منتج جديد'
   module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
-ms.openlocfilehash: e8fad0a9ddf0787c57ee7b98ddc6ef8363832ffc
-ms.sourcegitcommit: 178a1e5d74c3902b0514276a3daf4a24c0c4ade7
-ms.translationtype: HT
-ms.contentlocale: ar-SA
-ms.lasthandoff: 08/01/2022
-ms.locfileid: "147444359"
 ---
+
 # <a name="module-3-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>الوحدة الثالثة: تعرف على أساسيات Microsoft Dynamics 365 - Supply Chain Management
 
 ## <a name="lab-1---create-a-new-product"></a>النشاط المعملي 1 - إنشاء منتج جديد
@@ -29,25 +24,25 @@ ms.locfileid: "147444359"
 
 1. في الجزء العلوي الأيسر، حدد القائمة على شكل هامبرجر **توسيع جزء التنقل**.
 
-1. في جزء التنقل، حدد **Modules** > **Product information management**، ثم ضمن فئة **Products**، حدد **Released products**.
+1. في جزء التنقل، حدد **Modules** > **Product information management،**  ثم ضمن فئة **Products**، حدد **Released products**.
 
-1. في صفحة Released product details، في القائمة العلوية، حدد **+ New**.
+1. في صفحة "Released product details"، في القائمة العلوية، حدد **+ New**.
 
-1. في جزء New released product، في قائمة **Product type** تحقق من تحديد **Item**.
+1. في جزء "New released product"، في قائمة **Product type** ، تحقق من تحديد **Item**.
 
-1. في القائمة **Product subtype**، تحقق من تحديد **Product**.
+1. في قائمة **Product subtype** ، تحقق من تحديد **Product**.
 
-1. حدد القائمة **Tracking dimension group** ثم حدد **None**.
+1. حدد القائمة **Tracking dimension group** ، ثم حدد **None**.
 
-1. ضمن **IDENTIFICATION**، في المربعين **Product number** و **Item number**، أدخل **GTL007**.
+1. ضمن **IDENTIFICATION**، في المربعين **Product number**  و**Item number**، أدخل **GTL007**.
 
-1. في المربع **Product name**، أدخل **Cabinet 2**.
+1. في مربع **Product name** ، أدخل **Cabinet 2**.
 
-1. ضمن **REFERENCE GROUPS**، حدد قائمة **Item model group**، ثم حدد **FIFO First In-First Out**.
+1. ضمن **REFERENCE GROUPS**، حدد قائمة **Item model group** ، ثم حدد **FIFO First In-First Out**.
 
-1. حدد قائمة **Item group** ثم حدد **TV&Video**.
+1. حدد القائمة **Item group** ثم حدد **TV&Video**.
 
-1. حدد قائمة **Storage dimension group**، ثم حدد **SiteWH**.
+1. حدد القائمة **Storage dimension group** ، ثم حدد **SiteWH**.
 
 1. ضمن **وحدات القياس**، تحقق من تعيين القيم التالية:
 
@@ -58,9 +53,9 @@ ms.locfileid: "147444359"
     | وحدة المبيعات| الكل|
     | وحدة BOM| الكل|
 
-1. ضمن **SALES TAXATION** حدد القائمة **Item sales tax group** ثم حدد **ALL**.
+1. ضمن **SALES TAXATION**، حدد القائمة **Item sales tax group** ، ثم حدد **ALL**.
 
-1. ضمن **PURCHASE TAXATION**، حدد القائمة **Item sales tax group**، ثم حدد **ALL**.
+1. ضمن **PURCHASE TAXATION**، حدد القائمة **Item sales tax group** ، ثم حدد **ALL**.
 
 1. ضمن PRICES، في المربع Purchase price، أدخل 30.00.
 
@@ -70,7 +65,7 @@ ms.locfileid: "147444359"
 
     ![صورة شاشة تعرض نموذج منتج الإصدار الجديد المكتمل](./media/lp1-m2-new-release-product.png)
 
-1. حدد "**OK**".
+1. حدد  **OK**.
 
 1. لضمان إنهاء المنتج، في الشريط الشريطي، أسفل **صيانة**، حدد **التحقق من الصحة**.
 

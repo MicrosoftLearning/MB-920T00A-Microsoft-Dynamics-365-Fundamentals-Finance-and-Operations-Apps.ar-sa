@@ -2,13 +2,8 @@
 lab:
   title: 'النشاط المعملي 1: تصفح تطبيقات Finance and Operations Apps'
   module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
-ms.openlocfilehash: f1d534e6d6d960be8f6672048f83a20a491264cc
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: ar-SA
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116209"
 ---
+
 # <a name="module-1-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps"></a>الوحدة الأولى: استكشاف الإمكانات الأساسية لتطبيقات التمويل والعمليات من Dynamics 365
 
 ## <a name="lab-1---navigate-finance-and-operations-apps"></a>المعمل 1- تصفح تطبيقات Finance and Operations Apps

@@ -8,7 +8,7 @@ lab:
 
 ## <a name="objective"></a>الهدف
 
-In this lab, you will learn how to copy data from finance and operations to Excel using Dynamics office add-in app. You will also learn how the same app can be used to insert data into finance and operations apps.
+في هذا التمرين المعملي، ستتعلم كيفية نسخ البيانات من التمويل والعمليات إلى Excel باستخدام تطبيق الوظائف الإضافية لـ Dynamics office. ستتعلم أيضا كيف يمكن استخدام نفس التطبيق لإدراج البيانات في تطبيقات التمويل والعمليات.
 
 ## <a name="lab-steps"></a>خطوات التمرين المعملي
 
@@ -22,7 +22,7 @@ In this lab, you will learn how to copy data from finance and operations to Exce
 
 4. حدد **مجموعات الموردين** (usmf) وقم بتنزيل قالب Excel.
 
-5. Save and then open the downloaded Excel template, allow it if needed, close activation, and select <bpt id="p1">**</bpt>Enable editing<ept id="p1">**</ept>. Trust this add-in, and then sign in (using your same credentials, if asked).
+5. احفظ قالب Excel الذي تم تنزيله ثم افتحه، واسمح به إذا لزم الأمر، وأغلق التنشيط، وحدد **Enable editing**. ثق بهذه الوظيفة الإضافية، ثم سجل الدخول (باستخدام بيانات الاعتماد نفسها، إذا طلب منك ذلك).
 
     ستظهر جميع البيانات الموجودة في جدول Vendor group في جدول بيانات Excel.
 

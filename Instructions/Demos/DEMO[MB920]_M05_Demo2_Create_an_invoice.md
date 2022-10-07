@@ -7,10 +7,10 @@ demo:
 ## <a name="demo-2---create-an-invoice"></a>العرض التوضيحي 2 - إنشاء فاتورة
 
 1. استعرض للوصول إلى مساحة عمل  **Project management**.  
-    In this demo, we'll go over the process of invoicing a single project within project operations. Although it's possible to perform mass invoicing, for demonstration purposes we will focus on just a single time and material project. We'll also see the posting results and financial insights within the project statement. Let's start with project invoicing. 
+    في هذا العرض التوضيحي، سننتقل إلى عملية فوترة مشروع واحد ضمن عمليات المشروع. على الرغم من أنه من الممكن إجراء فواتير جماعية، إلا أننا سنركز، لأغراض توضيحية، على مرة واحدة فقط وعلى مشروع فعلي.سنرى أيضًا نتائج الترحيل والرؤى المالية في بيان المشروع. لنبدأ بفوترة المشروع. 
 
-1. In the top-right company picker, verify the legal entity you are connected to is<bpt id="p1"> **</bpt>USSI<ept id="p1">**</ept>. If it's not, change the legal entity to<bpt id="p1"> **</bpt>USSI<ept id="p1">**</ept>.  
-    From the<bpt id="p1"> **</bpt>Project management<ept id="p1">**</ept> workspace, we can see all the active projects. We can search for projects using the filter, or in this example, we will select a known Project ID. 
+1. في منتقي الشركة العلوي الأيمن، تحقق من أن الكيان القانوني الذي تتصل به هو **USSI**. إذا لم يكن كذلك، قم بتغيير الكيان القانوني إلى **USSI**.  
+    من مساحة عمل **Project management**، يمكننا رؤية جميع المشاريع النشطة.يمكننا البحث عن مشاريع باستخدام عامل التصفية، أو في هذا المثال، سنختار Project ID معروف. 
 
 1. في جدول  **Active projects** ، في عمود **Project ID** ، حدد **00000093 Contoso Consulting**.  
 
@@ -24,7 +24,7 @@ demo:
     ![لقطة شاشة لصفحة مقترحات فواتير المشروع مع تمييز مقترح فاتورة جديد.](./media/projops_invoice_1_new_invoice_proposal.png)
 
 1. في الجزء **Create invoice proposal** ، أشر إلى المربعات الموجودة ضمن **Select transactions**.  
-    From here, we can select things such as the invoicing method, the invoice date, the funding source, and the project. We can also choose to include sub projects, as well as incorporate transaction types, the start and end dates for transactions, and any financial dimensions we need. 
+    من هنا، يمكننا تحديد أشياء مثل طريقة الفوترة وتاريخ الفاتورة ومصدر التمويل والمشروع.يمكننا أيضًا اختيار تضمين المشاريع الفرعية، بالإضافة إلى دمج أنواع الحركات وتواريخ البدء والانتهاء للحركات وأي أبعاد مالية نحتاجها. 
 
     ![لقطة شاشة لجزء إنشاء مقترح فاتورة مع تمييز قسم "تحديد الحركات".](./media/projops_invoice_2_select_transactions.png)
 
@@ -34,7 +34,7 @@ demo:
     بمجرد إجراء التحديدات، حدد زر البحث للعثور على الحركات التي تلبي هذه المعايير.
 
 1. حدد **Search**.  
-    في هذا العرض التوضيحي، سننتقل إلى عملية فوترة مشروع واحد ضمن عمليات المشروع.
+    بعد ذلك، لإصدار فاتورة بجميع الحركات، حدد خيار Select all. سيؤدي هذا إلى تحديد العناصر التي نختارها للمصروفات والساعات.
 
 1. ضمن علامة التبويب **Project transactions** ، حدد **Select all**.
 
@@ -57,7 +57,7 @@ demo:
     في شاشة الإجماليات، يمكننا معرفة التأثير الذي سيكون على دفتر الأستاذ العام وأي معلومات خاصة بالعميل مثل حدود الائتمان وأي خصومات وضرائب المبيعات والتأثير الصافي للفاتورة. 
 
 1. على الجانب الأيمن من الشاشة، حدد **X** لإغلاق الصفحة.  
-    على الرغم من أنه من الممكن إجراء فواتير جماعية، إلا أننا سنركز، لأغراض توضيحية، على مرة واحدة فقط وعلى مشروع فعلي. 
+    نحن الآن جاهزون لإنشاء معاينة قبل الطباعة للتأكد من دقة جميع معلومات الفواتير. تستخدم بعض المؤسسات المعاينة أثناء اجتماعات مراجعة المشروع للتأكد من موافقة الجميع على الإجماليات قبل إنهاء الفاتورة. 
 
 1. في صفحة **Invoice proposal** ، في شريط التنقل، حدد **Print preview**. 
 
@@ -90,7 +90,7 @@ demo:
 1. في صفحة **Invoice journal** ، في شريط الإجراءات، حدد **Voucher**.
 
 1. في صفحة **Voucher transactions** ، أشر إلى عمود **Ledger account**.  
-    سنرى أيضًا نتائج الترحيل والرؤى المالية في بيان المشروع.
+    هنا نرى النتائج مرحلة في دفتر الأستاذ العام. يتم تحديد حسابات دفتر الأستاذ العام من خلال إعداد الحساب والأبعاد المالية المطبقة على كل مشروع.
 
 1. استعرض للوصول إلى مساحة عمل **Project management** . 
 
@@ -114,4 +114,4 @@ demo:
     ![لقطة شاشة لصفحة كشوف المشروع مع تمييز خيار الحساب.](./media/projops_invoice_4_calculate.png)
 
 1. أشر إلى **Transactions**.  
-    لنبدأ بفوترة المشروع.
+    بمجرد تحديث البيانات، يمكن لمدير المشروع اختيار التعمق أكثر في تفاصيل الحركات لاتخاذ قرارات المشروع أو إجراء التعديلات حسب الضرورة.في هذا العرض التوضيحي، قمنا بمعالجة فاتورة الوقت والمواد مع كل من حركة الساعة والمصروفات. نظرنا إليها في المعاينة، ثم قمنا بترحيل الفاتورة، وراجعنا ترحيل دفتر الأستاذ، وأخيرًا راجعنا التأثير المالي من خلال كشف المشروع هذا.

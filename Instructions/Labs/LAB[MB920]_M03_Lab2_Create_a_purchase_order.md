@@ -10,7 +10,7 @@ lab:
 
 ## <a name="objectives"></a>الأهداف
 
-It's more typical for purchase orders to be created automatically as result of master planning, direct delivery, and other processes. When created manually, a purchase order is usually created by a purchasing agent. Create a purchase order using the the USMF company.
+من المعتاد أن يتم إنشاء أوامر الشراء تلقائيًا كنتيجة للتخطيط الرئيسي والتسليم المباشر والعمليات الأخرى. عند إنشائه يدويًا، يتم عادةً إنشاء أمر الشراء بواسطة وكيل الشراء. قم بإنشاء أمر شراء باستخدام شركة USMF.
 
 ## <a name="lab-setup"></a>إعداد النشاط المعملي
 
@@ -30,25 +30,25 @@ It's more typical for purchase orders to be created automatically as result of m
 
 1. في جزء إنشاء أمر شراء، حدد قائمة **حساب المورد**، ثم حدد **US-101**.
 
-1. When you select a vendor, details from the vendor record, such as address, invoice account, delivery terms, and delivery mode, will be copied as default values into the order header. You can change these values at any time.
+1. عند تحديد مورّد، سيتم نسخ التفاصيل من سجل المورّد، مثل العنوان وحساب الفاتورة وشروط التسليم ووضع التسليم كقيم افتراضية في رأس الأمر. تستطيع تغيير هذه الإعدادات في أي وقت.
 
 1. قم بتوسيع القسم **عام.**
 
 1. ضمن **أبعاد التخزين**، حدد قائمة **الموقع**، وراجع قائمة المواقع.
 
-1. The Site field, together with the Warehouse field, specifies where the procured goods or services must be delivered. The default delivery address is the site. Both fields can be populated with values set up for the selected vendor, or you can specify them manually.
+1. يحدد حقل الموقع، جنبًا إلى جنب مع حقل المستودع، مكان تسليم البضائع أو الخدمات المشتراة. عنوان التسليم الافتراضي هو الموقع. يمكن ملء كلا الحقلين بقيم تم إعدادها للمورد المحدد، أو يمكنك تحديدها يدويًا.
 
 1. ضمن **التواريخ**، يتم استخدام حقل تاريخ التسليم لتحديد وقت الحاجة إلى تسليم البضائع والخدمات المشتراة.
 
-1. You can specify a single delivery date for the order, or the individual order lines can be given unique delivery dates. If the delivery date specified here cannot be met for specific products or services because they have longer lead times, then those lines will be created with a later delivery date to accommodate for this.
+1. يمكنك تحديد تاريخ تسليم واحد للأمر، أو يمكن إعطاء سطور الأمر الفردية تواريخ تسليم فريدة. إذا كان تاريخ التسليم المحدد هنا لا يمكن الوفاء به لمنتجات أو خدمات معينة لأن لها فترات زمنية أطول، فسيتم إنشاء هذه البنود بتاريخ تسليم لاحق لاستيعاب ذلك.
 
-1. Expand the <bpt id="p1">**</bpt>Administration<ept id="p1">**</ept> section. The <bpt id="p1">**</bpt>Orderer<ept id="p1">**</ept> box can be used to specify who is placing the order.
+1. قم بتوسيع قسم **الإدارة.** يمكن استخدام مربع **منشئ الأمر** لتحديد من يقوم بتقديم الطلب.
 
-1. من المعتاد أن يتم إنشاء أوامر الشراء تلقائيًا كنتيجة للتخطيط الرئيسي والتسليم المباشر والعمليات الأخرى.
+1. قد يكون هذا مناسبًا لمشاركته مع المورّد في حالة الحاجة إلى الاتصال بهذا الشخص. قد يتم تعيين القيمة تلقائيًا إذا كان حساب المستخدم الحالي مرتبطًا باسم على صفحة المستخدمين.
 
 1. حدد "**OK**".
 
-1. عند إنشائه يدويًا، يتم عادةً إنشاء أمر الشراء بواسطة وكيل الشراء.
+1. تم الآن إنشاء رأس الطلب. عندما تعمل مع سطور أمر الشراء، يتم عرض ملخص لمعلومات الرأس فقط. إذا كنت بحاجة إلى عرض بقية المعلومات، فحدد **الرأس**.
 
     ![صورة شاشة تعرض موقع قائمة الرأس](./media/lp1-m3-purchase-order-header-option.png)
 
@@ -58,7 +58,7 @@ It's more typical for purchase orders to be created automatically as result of m
 
 1. ضمن **العرض**، حدد **الأبعاد**.
 
-1. قم بإنشاء أمر شراء باستخدام شركة USMF.
+1. يمكن أن تكون المنتجات في متغيرات يتم تمييزها حسب الأبعاد، مثل اللون أو الحجم أو النمط. يمكن أيضًا إعداد المنتجات لاستخدام أبعاد التخزين، مثل الموقع والمستودع. هناك أيضًا أبعاد تعقب اختيارية، مثل الأرقام التسلسلية والدُفعات. لتحسين كفاءة إدخال الأمر، يمكنك إضافة حقول الأبعاد التي تستخدمها بشكل شائع مباشرةً إلى شبكة الأمر.
 
 1. في جزء عرض الأبعاد، ضمن **أبعاد المنتج**، حدد خانة الاختيار **اللون.**
 
@@ -72,7 +72,7 @@ It's more typical for purchase orders to be created automatically as result of m
 
 1. يتم إنشاء بنود الأمر للمنتجات والخدمات عن طريق تحديد رقم عنصر أو كمصروفات عن طريق تحديد فئة تدبير.
 
-1. Procurement category is used for adding lines where procured items are expensed directly, rather than going into inventory. This means that if you need to expense a purchase, you can do this by creating a purchase order line that specifies a procurement category, rather than creating a line with an item number. Items can also be associated with a procurement category and in this case, the procurement category is shown as informational only.
+1. تُستخدم فئة التدبير لإضافة البنود حيث يتم إنفاق العناصر المشتراة كمصروفات مباشرة، بدلاً من الدخول في المخزون. هذا يعني أنه إذا كنت بحاجة إلى إنفاق عملية شراء، فيمكنك القيام بذلك عن طريق إنشاء بند أمر شراء يحدد فئة تدبير، بدلاً من إنشاء سطر برقم عنصر. يمكن أيضًا ربط العناصر بفئة تدبير وفي هذه الحالة، يتم عرض فئة التدبير كمعلومات فقط.
 
 1. حدد **قائمة الألوان**، وراجع الخيارات المتاحة، ثم حدد أحد الألوان أو مجموعات الألوان.
 
@@ -84,21 +84,21 @@ It's more typical for purchase orders to be created automatically as result of m
 
 1. بعض المعلومات الإضافية:
 
-    - <bpt id="p1">**</bpt>Unit<ept id="p1">**</ept>: Indicates the unit of measure for the ordered quantity. Normally, the unit is automatically provided from the purchasing unit on the product master data.
+    - **الوحدة**: يشير إلى وحدة القياس للكمية المطلوبة. عادة، يتم توفير الوحدة تلقائيًا من وحدة الشراء على البيانات الرئيسية للمنتج.
 
-    - <bpt id="p1">**</bpt>Unit price<ept id="p1">**</ept>: Contains a value from either a purchase agreement or a trade agreement. It is possible to change the unit price on individual order lines—for example, if a unique price is negotiated with the vendor.
+    - **سعر الوحدة**: يحتوي على قيمة إما من اتفاقية شراء أو اتفاقية تجارية. من الممكن تغيير سعر الوحدة في سطور الأمر الفردية - على سبيل المثال، إذا تم التفاوض على سعر فريد مع المورّد.
 
-    - <bpt id="p1">**</bpt>Discount<ept id="p1">**</ept>: Represents a discount amount per unit. This discount therefore reduces the unit price by the discount. This discount is commonly supplied automatically from purchase agreements or trade agreements, but it is possible to override on individual lines if unique discounts have been negotiated with the vendor.
+    - **الخصم**: يمثل مبلغ الخصم لكل وحدة. وبالتالي، فإن هذا الخصم يقلل من سعر الوحدة بالخصم. عادةً ما يتم توفير هذا الخصم تلقائيًا من اتفاقيات الشراء أو الاتفاقيات التجارية، ولكن من الممكن تجاوز السطور الفردية إذا تم التفاوض على خصومات فريدة مع المورّد.
 
-    - <bpt id="p1">**</bpt>Discount percentage<ept id="p1">**</ept>: When entered, this reduces the net amount for the line accordingly. The discount percent is often supplied automatically from purchase agreements or trade agreements, but it is possible to override on individual lines if a unique discount percentage has been negotiated with the vendor.
+    - **نسبة الخصم**: عند إدخالها، يؤدي ذلك إلى تقليل المبلغ الصافي للسطر وفقًا لذلك. غالبًا ما يتم توفير نسبة الخصم تلقائيًا من اتفاقيات الشراء أو اتفاقيات التجارة، ولكن من الممكن تجاوز السطور الفردية إذا تم التفاوض على نسبة خصم فريدة مع المورّد.
 
-    - <bpt id="p1">**</bpt>Net amount<ept id="p1">**</ept>: Calculated from other fields on the line, including quantity, unit price, discount, and discount percent. It is possible to change the Net amount, but then the Unit Price, Discount, and Discount percent fields will be blank, and when you post toward the line, the amount posted will be proportional to the net amount. Generally, the Net Amount field is only used for displaying the net amount of the line.
+    - **المبلغ الصافي**: محسوبة من الحقول الأخرى في البند، بما في ذلك الكمية وسعر الوحدة والخصم ونسبة الخصم. من الممكن تغيير صافي المبلغ، ولكن ستكون حقول سعر الوحدة والخصم والنسبة المئوية للخصم فارغة، وعندما تقوم بالترحيل باتجاه السطر، سيكون المبلغ الذي تم ترحيله متناسبًا مع المبلغ الصافي. بشكل عام، يتم استخدام حقل المبلغ الصافي فقط لعرض المبلغ الصافي للسطر.
 
 1. أسفل سطور أمر الشراء، في أسفل الصفحة، حدد **تفاصيل السطر**.
 
 1. حدد علامة التبويب **التسليم**.
 
-1. A unique delivery date can be assigned to each order line. The date is inherited from the field on the purchase order header, but you can change this.
+1. يمكن تعيين تاريخ تسليم فريد لكل سطر أمر. التاريخ موروث من الحقل الموجود في رأس أمر الشراء، ولكن يمكنك تغيير ذلك.
 
 1. أغلق صفحة سطر أمر الشراء.
 

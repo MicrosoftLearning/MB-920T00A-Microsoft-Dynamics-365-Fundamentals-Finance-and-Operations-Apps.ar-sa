@@ -8,11 +8,11 @@ lab:
 
 ## <a name="lab-3---create-a-counting-journal"></a>النشاط معملي 3 إنشاء دفتر يومية الجرد
 
-1. On the Finance and Operations home page, in the top right, verify you are working with the <bpt id="p1">**</bpt>USMF<ept id="p1">**</ept> company. If necessary, select the company, and from the drop down, select <bpt id="p1">**</bpt>USMF<ept id="p1">**</ept>.
+1. في صفحة Finance and Operations الرئيسية، أعلى اليمين، تحقق من أنك تعمل مع شركة **USMF**. إذا لزم الأمر، حدد الشركة ومن القائمة المنسدلة، حدد **USMF**.
 
 2. في جزء التنقّل الأيسر، حدد **Modules** > **Inventory management** > **Journal entries** > **Item counting** > **Counting**.
 
-3. Select the <bpt id="p1">**</bpt>+New<ept id="p1">**</ept> button in the action pane. The <bpt id="p1">**</bpt>Create inventory journal<ept id="p1">**</ept> dialog form will appear with the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button in the bottom. Select the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.
+3. حدد زر **+New** في جزء الإجراءات. سيظهر نموذج الحوار **Create inventory journal** مع الزر **OK** في الأسفل. حدد الزر **موافق**.
 
 4. سيظهر نموذج دفتر يومية جرد المخزون مع معلومات العنوان والتفاصيل
 
@@ -24,13 +24,13 @@ lab:
 
 ![لقطة شاشة لجزء مربع الحوار Create on-hand counting journal مع تعيين الحقول كما هو موضح.](../media/lp-scm-m-002-warehouse-inventory-mgmt-07.png)
 
-7. Expand the <bpt id="p1">**</bpt>Record to include<ept id="p1">**</ept> section and select the <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept> link. In the <bpt id="p1">**</bpt>Item number<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>A0001<ept id="p2">**</ept>, and then select <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.
+7. قم بتوسيع القسم **Record to include** وحدد الارتباط **Filter**. في الحقل **Item number**، حدد **A0001**، ثم حدد **OK**.
 
 8. حدد **OK** في أسفل نموذج مربع الحوار **Create on-hand counting journal**.
 
 ستظهر الكمية الموجودة للعنصر A0001 في قسم **Journal lines** مع تقسيم لوحة Site وWarehouse وLocation وLicense.
 
-9. In the <bpt id="p1">**</bpt>Counted<ept id="p1">**</ept> column of the <bpt id="p2">**</bpt>Journal line<ept id="p2">**</ept> section, enter the numbers counted in each Site/Warehouse/Location/License plate. Note the following:
+9. في العمود **Counted** من قسم **Journal line**، أدخل الأرقام التي تم حسابها في كل لوحة Site/Warehouse/Location/License. لاحظ ما يلي:
 
     - إذا كانت كمية **On-hand** هي نفس كمية **Counted**، فسيكون حقل **Quantity** فارغًا.
 

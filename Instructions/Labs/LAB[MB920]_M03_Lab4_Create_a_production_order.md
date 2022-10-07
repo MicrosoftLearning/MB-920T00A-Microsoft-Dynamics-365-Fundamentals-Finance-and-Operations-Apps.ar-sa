@@ -8,7 +8,7 @@ lab:
 
 ## <a name="objectives"></a>الأهداف
 
-The production order contains information about what will be produced, the quantity to produce, and the planned finish date. It also contains information about which materials to consume and which process to follow to produce the item.
+يحتوي أمر الإنتاج على معلومات حول ما سيتم إنتاجه والكمية المطلوب إنتاجها وتاريخ الانتهاء المخطط له. يحتوي أيضًا على معلومات حول المواد التي يجب استهلاكها والعملية التي يجب اتباعها لإنتاج العنصر.
 
 يجب عليك إنشاء أمر إنتاج جديد لشركتك.
 
@@ -29,11 +29,11 @@ The production order contains information about what will be produced, the quant
 1. ضمن **المعرف**، في المربع **رقم العنصر**، أدخل **D0001**، ثم حدد العنصر المحدد.
 
 1. ضمن **الإنتاج**، في مربع **التسليم**، حدد تاريخًا بعد شهر واحد من تاريخ اليوم.  
-    The delivery date indicates when the production order should end in order to deliver on time. This date can be used in the scheduling process. For example, you can schedule the order backward from the delivery date.
+    يشير تاريخ التسليم إلى موعد انتهاء أمر الإنتاج للتسليم في الوقت المحدد. يمكن استخدام هذا التاريخ في عملية الجدولة. على سبيل المثال، يمكنك جدولة الطلب بأثر رجعي من تاريخ التسليم.
 
 1. في مربع **Quantity**، أدخل **20**.
 
-1. Under <bpt id="p1">**</bpt>BOM/ROUTE<ept id="p1">**</ept>, the BOM number field automatically displays the number of any active BOM for the current item, but you can change the BOM for the production order by selecting an active BOM from the list of approved BOM versions. The Route number field automatically displays the number of any active Route for the current item, but you can change the Route for the production order by selecting an active Route from the list of approved Route versions.
+1. ضمن **مكونات العنصر/المسار**، يعرض حقل رقم قائمة مكونات العنصر تلقائيًا رقم أي قائمة مكونات عنصر نشطة للعنصر الحالي، ولكن يمكنك تغيير قائمة مكونات العنصر لأمر الإنتاج عن طريق تحديد قائمة مكونات عنصر نشطة من قائمة إصدارات قائمة مكونات العنصر المعتمدة. يعرض حقل رقم المسار تلقائيًا رقم أي مسار نشط للعنصر الحالي، ولكن يمكنك تغيير المسار لأمر الإنتاج بتحديد مسار نشط من قائمة إصدارات المسار المعتمدة.
 
     ![صورة شاشة تعرض جزء إنشاء أمر إنتاج بالكامل](./media/lp1-m4-new-production-order-pane.png)
 

@@ -34,7 +34,7 @@ lab:
 
         pass@word1
 
-    >[!Note] قد يتم فتح Internet Explorer تلقائيًا في سطح المكتب. إذا لم تكن قد أكملت بالفعل الخطوات من 2 إلى 5، فالرجاء الانتهاء منها قبل العودة إلى Internet Explorer.
+    >[!Note] قد يتم فتح Microsoft Edge تلقائيًا في سطح المكتب. إذا لم تكن قد أكملت بالفعل الخطوات من 2 إلى 5، فالرجاء الانتهاء منها قبل العودة إلى Microsoft Edge.
 
 1. حدد ملف **AdminUserProvisioning** على سطح المكتب.
 
@@ -45,7 +45,7 @@ lab:
 
 1. حدد **موافق** للمتابعة.
 
-1. افتح **Internet Explorer**.
+1. افتح **Microsoft Edge**.
 
 1. تصفح إلى الارتباط المحدد: <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 

@@ -31,3 +31,5 @@ lab:
     - بطاقة الخصم/بطاقة الائتمان الافتراضية: **Debit**
 
  ![لقطة شاشة لـ Main accounts - مخطط بياني للحسابات: صفحة مشتركة لملء الحقول من الخطوة 5](./media/m-002-explore-general-ledgers-in-microsoft-dynamics-365-finance-03.png)
+
+6. اضغط على **حفظ **.

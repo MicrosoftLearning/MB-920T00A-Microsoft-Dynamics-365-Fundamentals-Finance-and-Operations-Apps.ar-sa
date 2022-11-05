@@ -6,6 +6,8 @@ lab:
 
 # <a name="module-1-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps"></a>الوحدة الأولى: استكشاف الإمكانات الأساسية لتطبيقات التمويل والعمليات من Dynamics 365
 
+## <a name="lab-2---excel-integration"></a>النشاط المعملي 2 - تكامل Excel
+
 ## <a name="objective"></a>الهدف
 
 في هذا التمرين المعملي، ستتعلم كيفية نسخ البيانات من التمويل والعمليات إلى Excel باستخدام تطبيق الوظائف الإضافية لـ Dynamics office. ستتعلم أيضا كيف يمكن استخدام نفس التطبيق لإدراج البيانات في تطبيقات التمويل والعمليات.
@@ -28,7 +30,7 @@ lab:
 
 6.  أدخل سجلاً جديدًا.
 
-7. أدخل **100** في حقل **Vendor group**،و **Insurance Vendor** في حقل **Description**، و**Net10** في حقل **Terms of payment**.
+7. أدخل **100** في الحقل **Vendor group**، و**Insurance Vendor** في الحقل **Description**، و**Net10** في الحقل **Terms of payment**.
 
 8. حدد الزر **Publish** في تطبيق الوظيفة الإضافية لـ Microsoft Dynamics Office.
 

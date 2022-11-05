@@ -16,15 +16,15 @@ lab:
 
 4. سيظهر نموذج دفتر يومية جرد المخزون مع معلومات العنوان والتفاصيل
 
-![لقطة شاشة لنموذج دفتر يومية جرد المخزون مع تعبئة معلومات العنوان والتفاصيل.](../media/lp-scm-m-002-warehouse-inventory-mgmt-06.png)
+    ![لقطة شاشة لنموذج دفتر يومية جرد المخزون مع تعبئة معلومات العنوان والتفاصيل.](./media/lp-scm-m-002-warehouse-inventory-mgmt-06.png)
 
-5. حدد **Create lines -&gt; Online** في جزء الإجراءات.
+5. حدد **Create lines -&gt; On-hand** في الجزء "action".
 
-6. في جزء مربع الحوار **Create on-hand counting journal**، قم بتعيين حقول **Warehouse** و**Inventory Status**, وLocation و**License Plate** إلى **Yes**. 
+6. في جزء مربع الحوار **Create on-hand counting journal**، قم بتعيين حقول **Warehouse** و**Inventory Status** و**Location** و**License Plate** إلى **Yes**. 
 
-![لقطة شاشة لجزء مربع الحوار Create on-hand counting journal مع تعيين الحقول كما هو موضح.](../media/lp-scm-m-002-warehouse-inventory-mgmt-07.png)
+    ![لقطة شاشة لجزء مربع الحوار Create on-hand counting journal مع تعيين الحقول كما هو موضح.](./media/lp-scm-m-002-warehouse-inventory-mgmt-07.png)
 
-7. قم بتوسيع القسم **Record to include** وحدد الارتباط **Filter**. في الحقل **Item number**، حدد **A0001**، ثم حدد **OK**.
+7. وسّع القسم **Records to include** وحدد الارتباط **Filter**. بالنسبة لحقل **Item number**، اكتب **A0001** في "Criteria"، ثم حدد **OK**.
 
 8. حدد **OK** في أسفل نموذج مربع الحوار **Create on-hand counting journal**.
 

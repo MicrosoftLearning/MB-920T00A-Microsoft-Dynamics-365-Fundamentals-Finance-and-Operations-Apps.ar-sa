@@ -4,7 +4,7 @@ demo:
   module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Human Resources'
 ---
 
-## <a name="demo-1---assigning-learning-courses"></a>العرض التوضيحي 1 - تعيين دورات التعلم
+## العرض التوضيحي 1 - تعيين دورات التعلم
 
 1. استعرض للوصول إلى صفحة **Microsoft Dynamics 365 Human Resources** الرئيسية.  
     في Microsoft Dynamics 365 Human Resources، يمكن لمديري الموظفين تعيين دورات تدريبية للموظفين. في هذا المثال، يجب تعيين موظفة الشركة الجديدة -أليسيا- على التدريب المتاح للموظفين خلال أول ثلاثين يومًا.

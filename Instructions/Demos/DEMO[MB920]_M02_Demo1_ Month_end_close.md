@@ -4,7 +4,7 @@ demo:
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
 ---
 
-## <a name="demo-1---month-end-close"></a>العرض التوضيحي 1 - إقفال نهاية الشهر
+## العرض التوضيحي 1 - إقفال نهاية الشهر
 
 1. استعرض للوصول إلى الصفحة الرئيسية **لـ Microsoft 365 for Finance and Operations.**  
     لإنشاء إقفال فترة مالية جديد في Microsoft Dynamics 365 for Finance and Operations، مثل إقفال نهاية الشهر، انتقل أولاً إلى وحدة **دفتر الأستاذ العام.**

@@ -3,33 +3,38 @@ lab:
   title: 'النشاط المعملي 1: إنشاء حساب رئيسي'
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
 ---
-    
-# <a name="module-2-learn-the-fundamentals-of-microsoft-dynamics-365-finance"></a>الوحدة الثانية: تعرف على أساسيات Microsoft Dynamics 365 Finance
-    
-## <a name="lab-1---create-a-main-account"></a>النشاط المعملي 1 إنشاء حساب رئيسي
 
-## <a name="instructions"></a>الإرشادات
+# الوحدة الثانية: تعرف على أساسيات Microsoft Dynamics 365 Finance
 
-1. في صفحة **Finance and Operations Home**، أعلى اليمين، تحقق من أنك تعمل مع شركة USMF.
+## النشاط المعملي 1: إنشاء حساب رئيسي
 
-2. إذا لزم الأمر، حدد الشركة، ومن القائمة، حدد **USMF**.
+## إعداد النشاط المعملي
 
-3. باستخدام جزء التنقّل، حدد **Modules** > **General ledger** > **Chart of accounts** > **Accounts** > **Main accounts**.
+   - **الزمن المقدر**: 5 minutes
 
-4. في القائمة العلوية، حدد **+ جديد**.
+## الإرشادات
 
-5. أدخل القيم التالية في صفحة Main account:
+1.  في الصفحة **الرئيسية للتمويل والعمليات** ، في أعلى اليمين، تحقق من أنك تعمل مع شركة **USMF** . 
 
-    - Main account: **601510**
+2.  إذا لزم الأمر، حدد منتقي الشركة واختر **USMF**. 
 
-    - الاسم: **مصروفات المكالمات الدولية**
+3.  في جزء التنقل الأيمن، في الوحدة **النمطية دفتر الأستاذ العام** ، حدد **مخطط الحسابات** > **الحسابات** > **الرئيسية**.
 
-    - نوع الحساب الرئيسي: **Expense**
+4.  حدد **+ جديد** في جزء الإجراءات.
 
-    - فئة الحساب الرئيسي: **TANDEEXP**
+5.  أدخل القيم التالية في صفحة **الحساب الرئيسي** : 
 
-    - بطاقة الخصم/بطاقة الائتمان الافتراضية: **Debit**
+    - الحساب الرئيسي: `601510`
 
- ![لقطة شاشة لـ Main accounts - مخطط بياني للحسابات: صفحة مشتركة لملء الحقول من الخطوة 5](./media/m-002-explore-general-ledgers-in-microsoft-dynamics-365-finance-03.png)
+    - الاسم: `International call expense`
 
-6. اضغط على **حفظ **.
+    - نوع الحساب الرئيسي: `Expense`
+
+    - فئة الحساب الرئيسي: `TANDEEXP`
+
+    - DB/CR الافتراضي: `Debit`
+
+    ![لقطة شاشة لـ Main accounts - مخطط بياني للحسابات: صفحة مشتركة لملء الحقول من الخطوة 5](./media/m-002-explore-general-ledgers-in-microsoft-dynamics-365-finance-03.png)
+
+6.  حدد **Save** **وأغلق** الصفحة. 
+

@@ -4,7 +4,7 @@ demo:
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
 ---
 
-## <a name="demo-1---project-operations-pricing"></a>العرض التوضيحي 1 - تسعير Project Operations
+## العرض التوضيحي 1 - تسعير Project Operations
 
 1. استعرض للوصول إلى مساحة عمل **إدارة المشروع.**  
     في هذا العرض التوضيحي، سنقوم بإعداد أسعار المبيعات والتكلفة ضمن عمليات المشروع. وسنرى كيف يتم اشتقاق التكلفة والأسعار من فاتورة تم ترحيلها مسبقًا.

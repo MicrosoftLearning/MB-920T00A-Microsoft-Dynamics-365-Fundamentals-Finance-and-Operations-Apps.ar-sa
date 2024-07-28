@@ -1,12 +1,12 @@
 ---
 lab:
-  title: التمرين المعملي 2 - تكامل Excel
-  module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
+  title: 'التمرين المعملي 1.2: تكامل Excel'
+  module: 'Learning Path 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
 ---
+# مسار التعليم 1: استكشاف الإمكانات الأساسية لتطبيقات التمويل والعمليات من Dynamics 365
+# الوحدة 3: وصف قدرات إعداد التقارير والتكامل في تطبيقات التمويل والعمليات
 
-# الوحدة 1:استكشاف الإمكانات الأساسية لتطبيقات التمويل والعمليات من Dynamics 365
-
-## التمرين المعملي 2 - تكامل Excel
+## التمرين المعملي 1.2: تكامل Excel
 
 ## الهدف
 

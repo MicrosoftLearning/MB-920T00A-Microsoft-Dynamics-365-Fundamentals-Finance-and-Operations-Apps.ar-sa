@@ -27,8 +27,6 @@ lab:
 
     - كلمة مرور: `pass@word1`
 
-1.  انتظر حتى ينتهي البرنامج النصي AdminUserProvisioning قبل المتابعة. قد يستغرق هذا 2-3 دقائق. بمجرد اكتمال البرنامج النصي، سيتم عرض مربع منبثق لفترة وجيزة لتأكيد تحديث "Admin user" بنجاح. 
-
 1.  سيفتح **Microsoft Edge** عنوان URL للتمويل والعمليات: <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 
 1.  سجل الدخول باستخدام "Username" و"Password" المتوفرين في قائمة **Resources**. 

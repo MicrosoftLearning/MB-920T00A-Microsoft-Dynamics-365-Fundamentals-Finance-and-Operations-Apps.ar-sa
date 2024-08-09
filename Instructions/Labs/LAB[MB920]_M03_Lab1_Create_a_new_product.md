@@ -13,7 +13,7 @@ lab:
 
 ## خطوات المعمل
 
-1. في جزء التنقل Dynamics 365 Supply Chain Management، حدد **Modules**، ثم حدد **Product information management > ****Setup** > **Dimension and variant groups**. افتح **صفحة مجموعات** الألوان وأنشئ سجلا جديدا.
+1. في جزء التنقل Dynamics 365 Supply Chain Management، حدد **Modules**، ثم حدد **Product information management > ****Setup** > **Dimension والمجموعات المتغيرة**. افتح **صفحة مجموعات** الألوان وأنشئ سجلا جديدا.
 
     - مجموعة الألوان: **ShirtColor**
 

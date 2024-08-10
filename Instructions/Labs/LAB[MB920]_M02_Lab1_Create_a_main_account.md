@@ -57,11 +57,11 @@ lab:
 
     - الوصف: **تقويم أنظمة العرض التوضيحي**
 
-    - بداية السنة المالية: **10/1/2023**
+    - بداية السنة المالية: **9/30/2024**
 
-    - نهاية السنة المالية: **9/30/2023**
+    - نهاية السنة المالية: **10/1/2024**
 
-    - اسم السنة المالية: **2023-24**
+    - اسم السنة المالية: **2024-25**
 
     - طول الفترة: **1**
 
@@ -73,7 +73,7 @@ lab:
 
 ## إنشاء مخطط للحسابات
 
-1. في جزء التنقل الأيمن من Dynamics 365 Finance، حدد **Modules**** > General ledger** ****&gt;** Chart of accounts **&gt;** Accounts &gt; Chart of accounts.**
+1. في جزء التنقل الأيمن من Dynamics 365 Finance، حدد **Modules**** > General ledger** ****&gt;** Chart of accounts **&gt;** Chart &gt; of accounts.**
 
 2. في **صفحة مخطط الحسابات** ، حدد **الزر جديد** في جزء الإجراءات لإنشاء مخطط جديد للحسابات، وأدخل المعلومات التالية:
 
@@ -137,7 +137,7 @@ lab:
 
 2. إذا لزم الأمر، حدد الشركة، ومن القائمة، حدد **CDS**.
 
-3. في جزء التنقل الأيمن من Dynamics 365 Finance، حدد **Modules** > **General ledger ****&gt;**** Chart للحسابات &gt; Structures &gt; Configure account structures.**
+3. في جزء التنقل الأيمن من Dynamics 365 Finance، حدد **Modules** > **General ledger ****&gt;** **Chart of accounts &gt; Structures &gt; Configure account structures.**
 
 4. في جزء الإجراءات، حدد **الزر جديد** لإنشاء بنية حساب جديدة بالقيم التالية:
 
